@@ -3,3 +3,6 @@ package.json:186,1535439600:186,m
 .gtm/terminal.app:184,1535439600:184,r
 .babelrc:80,1535439600:80,m
 .travis.yml:30,1535439600:30,d
+
+[ver:1,total:60]
+.gtm/terminal.app:60,1535439600:60,r
