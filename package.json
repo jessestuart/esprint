@@ -1,6 +1,6 @@
 {
-  "name": "esprint",
-  "version": "0.4.0",
+  "name": "@jesses/esprint",
+  "version": "0.5.0",
   "description": "Parallelized eslint",
   "main": "index.js",
   "license": "Apache-2.0",
@@ -16,36 +16,42 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinterest/esprint.git"
+    "url": "git+https://github.com/jessestuart/esprint.git"
   },
-  "author": "Arthur Lee <arthur@pinterest.com>",
+  "author": [
+    "Arthur Lee <arthur@pinterest.com>",
+    "Jesse Stuart <hi@jessestuart.com>"
+  ],
   "bugs": {
-    "url": "https://github.com/pinterest/esprint/issues"
+    "url": "https://github.com/jessestuart/esprint/issues"
   },
-  "homepage": "https://github.com/pinterest/esprint#readme",
+  "homepage": "https://github.com/jessestuart/esprint#readme",
   "dependencies": {
     "dnode": "^1.2.2",
     "fb-watchman": "^2.0.0",
-    "glob": "^7.1.2",
+    "glob": "^7.1.3",
     "sane": "^3.0.0",
     "worker-farm": "^1.6.0",
     "yargs": "^12.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=3"
+    "eslint": ">=5"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "bin": {
     "esprint": "build/cli.js"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.6",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
     "babel-preset-env": "^1.7.0",
     "chalk": "^2.4.1",
-    "eslint": "^5.3.0",
+    "eslint": "^5.4.0",
     "jest": "^23.5.0"
   }
 }
